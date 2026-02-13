@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pranitha | Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+body{
+  font-family:Segoe UI,sans-serif;
+  background:#0b1120;
+  color:#e0e7ff;
+}
+
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#020617;
+  border-bottom:1px solid #1e293b;
+  padding:12px 12%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:1000;
+}
+
+header h1{font-size:20px;color:#60a5fa}
+
+nav{display:flex;gap:15px}
+nav a{
+  color:#c7d2fe;
+  text-decoration:none;
+  font-size:14px;
+}
+nav a:hover{color:#60a5fa}
+
+section{
+  padding:40px 12%;
+}
+
+h2{
+  font-size:24px;
+  color:#a5b4fc;
+  margin-bottom:10px;
+}
+
+.box{
+  background:#020617;
+  border:1px solid #1e293b;
+  padding:15px;
+  border-radius:8px;
+  line-height:1.5;
+}
+
+.hero{
+  padding-top:100px;
+}
+
+#typeText{
+  font-size:24px;
+  margin-bottom:10px;
+}
+
+.socials{
+  display:flex;
+  gap:15px;
+  margin-bottom:15px;
+}
+
+.socials a{
+  font-size:20px;
+  color:#c7d2fe;
+}
+.socials a:hover{
+  color:#60a5fa;
+}
+
+.resume-btn{
+  display:inline-block;
+  padding:8px 16px;
+  background:#60a5fa;
+  color:#020617;
+  border-radius:6px;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:600;
+}
+.resume-btn:hover{
+  background:#93c5fd;
+}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.skill{
+  width:120px;
+  text-align:center;
+  padding:10px;
+  background:#020617;
+  border:1px solid #1e293b;
+  border-radius:8px;
+  font-size:14px;
+}
+
+.skill i{
+  font-size:28px;
+  margin-bottom:5px;
+}
+
+.project{
+  background:#020617;
+  padding:15px;
+  border-radius:8px;
+  border:1px solid #1e293b;
+  margin-bottom:10px;
+  line-height:1.5;
+}
+
+ul{
+  margin-left:18px;
+  margin-top:5px;
+}
+
+.contact a{
+  color:#60a5fa;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Gujja Pranitha</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div id="typeText"></div>
+
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/gujja-pranitha-3b485b2bb" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/2303A52171" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://leetcode.com/u/Pranitha_Gujja/" target="_blank">
+      <i class="fas fa-code"></i>
+    </a>
+  </div>
+
+  <a href="resume/Pranitha_Resume.pdf" target="_blank" class="resume-btn">
+    <i class="fas fa-download"></i> Download Resume
+  </a>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <div class="box">
+    I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning.
+    I have strong knowledge in Data Structures, Algorithms, and Software Development.
+    I am passionate about building real-world AI applications and continuously enhancing my technical expertise.
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="box">
+    <b>B.Tech – CSE (AIML)</b><br>
+    SR University (2023–2027) | CGPA: 8.4<br><br>
+
+    <b>Intermediate (MPC)</b> | 98%<br><br>
+
+    <b>Coursework:</b>
+    <ul>
+      <li>Data Structures & Algorithms</li>
+      <li>DBMS</li>
+      <li>Operating Systems</li>
+      <li>Computer Networks</li>
+      <li>Artificial Intelligence</li>
+      <li>Machine Learning</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill"><i class="devicon-python-plain colored"></i><p>Python</p></div>
+    <div class="skill"><i class="devicon-c-plain colored"></i><p>C</p></div>
+    <div class="skill"><i class="devicon-java-plain colored"></i><p>Java</p></div>
+    <div class="skill"><i class="devicon-mysql-plain colored"></i><p>SQL</p></div>
+    <div class="skill"><i class="devicon-html5-plain colored"></i><p>HTML</p></div>
+    <div class="skill"><i class="devicon-css3-plain colored"></i><p>CSS</p></div>
+    <div class="skill"><i class="devicon-javascript-plain colored"></i><p>JavaScript</p></div>
+    <div class="skill"><i class="devicon-git-plain colored"></i><p>Git</p></div>
+    <div class="skill"><i class="devicon-github-original"></i><p>GitHub</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <b>Brain Tumor Detection using CNN</b><br>
+    Developed a CNN model to classify brain MRI images into tumor and non-tumor categories.
+    Applied image preprocessing and data augmentation techniques.
+    Achieved 94.6% accuracy demonstrating real-world medical AI application.
+    Technologies Used: Python, TensorFlow/Keras, NumPy, OpenCV.
+  </div>
+
+  <div class="project">
+    <b>Speedup Analysis of Human Face Image Processing</b><br>
+    Developed a parallel image processing system using Python multiprocessing to analyze 
+    performance improvements over sequential execution. Processed large human face datasets 
+    and evaluated execution time, speedup, and efficiency. Demonstrated practical implementation 
+    of High Performance Computing concepts.
+  </div>
+
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="box">
+    <b>AI–ML Intern — AICTE EduSkills</b><br>
+    Oct 2024 – Dec 2024
+    <ul>
+      <li>Worked on real-world machine learning applications</li>
+      <li>Performed data preprocessing and model training</li>
+      <li>Enhanced knowledge in deep learning workflows</li>
+    </ul>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="box">
+    <ul>
+      <li>Completed AICTE EduSkills AI–ML Internship</li>
+      <li>Achieved 94.6% accuracy in Brain Tumor Detection project</li>
+      <li>Strong analytical and problem-solving abilities</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  Email: <a href="mailto:pranithagujja7@gmail.com">pranithagujja7@gmail.com</a><br>
+  Phone: +91 9704611732
+</section>
+
+<script>
+const texts=[
+  "I'm good at problem solving.",
+  "I'm interested in AI & ML.",
+  "I build real-world applications.",
+  "I'm a Web Developer."
+];
+
+let t=0,c=0,del=false;
+const el=document.getElementById("typeText");
+
+function type(){
+  if(!del){
+    el.textContent=texts[t].slice(0,c++);
+    if(c>texts[t].length) setTimeout(()=>del=true,1000);
+  }else{
+    el.textContent=texts[t].slice(0,c--);
+    if(c<0){del=false;t=(t+1)%texts.length}
+  }
+  setTimeout(type,60);
+}
+type();
+</script>
+
+</body>
+</html>
